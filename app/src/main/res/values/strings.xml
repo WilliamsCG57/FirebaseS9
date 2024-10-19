@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirebaseS9</string>
+    <string name="btnLogin">LOGIN</string>
 </resources>
