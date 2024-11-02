@@ -39,7 +39,7 @@ class RegisterActivity : AppCompatActivity() {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
 
-            //Gemerar el usuario en FirebaseAuth
+            //Generar el usuario en FirebaseAuth
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {

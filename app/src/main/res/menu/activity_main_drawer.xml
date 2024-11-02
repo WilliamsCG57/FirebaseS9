@@ -16,5 +16,9 @@
             android:id="@+id/nav_animals"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_animals" />
+        <item
+            android:id="@+id/nav_product_api"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_product_api" />
     </group>
 </menu>
