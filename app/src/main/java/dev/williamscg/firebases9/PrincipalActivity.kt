@@ -27,9 +27,12 @@ class PrincipalActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarPrincipal.toolbar)
 
         binding.appBarPrincipal.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null)
-                .setAnchorView(R.id.fab).show()
+           // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+             //   .setAction("Action", null)
+               // .setAnchorView(R.id.fab).show()
+            //Load nav_add_fragment
+            val navController = findNavController(R.id.nav_host_fragment_content_principal)
+            navController.navigate(R.id.nav_add_product)
         }
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
