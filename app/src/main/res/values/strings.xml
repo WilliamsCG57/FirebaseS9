@@ -30,4 +30,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_product_api">Product API</string>
     <string name="tvBuscarProducto">Buscar producto</string>
+    <string name="valtvRegistrarProducto" />
+    <string name="valtvRegProduct">REGISTRO DE PRODUCTO</string>
+    <string name="valbtaddproduct">AGREGAR</string>
 </resources>
